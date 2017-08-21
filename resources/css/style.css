@@ -3,6 +3,7 @@ body {
   font-size: 18px;
   line-height: 1.4;
   font-family: "Helvetica" sans-serif;
+  margin: 0 auto;
 
 }
 
@@ -25,7 +26,7 @@ header {
   justify-content: center;
   align-items: center;
   height: 3rem;
-  max-width: 960px;
+  width: 960px;
 
 
 }
@@ -83,24 +84,29 @@ nav span {
 
 .container {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   margin: 10rem 2rem auto 35rem;
   background-color: white;
   color: black;
-  width: 46%;
+  
+
 
 
 }
 
 h1#text {
+
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.2;
   font-family: "Helvetica" sans-serif;
   padding: 1.5rem 5rem;
-  display: inline;
-  background-size: auto;
-  text-align: center;
+  display: block;
+
+
 }
+
 
 .main {
   display: flex;
@@ -120,8 +126,7 @@ h1#text {
   padding-right: 6rem;
   align-items: center;
   text-align: center;
-
-
+  height: 8rem;
 
 
 }
@@ -131,6 +136,7 @@ img#icon1 {
   display: block;
   width: 3.5rem;
   height: auto;
+
 }
 
 .icon1#p {
@@ -144,24 +150,29 @@ img#icon1 {
 img#icon2 {
   display: block;
   width: 5rem;
+  margin-bottom: 1rem;
   height: auto;
 
 }
 
 .icon2#p {
   display: block;
+  text-align: center;
   font-size: 1rem;
   font-family: "Helvetica" sans-serif;
+  width: inherit;
 }
 
 img#icon3 {
   display: block;
   width: 5rem;
+  margin-bottom: 1rem;
 
 }
 
 .icon3#p {
   display: block;
+  text-align: center;
   font-size: 1rem;
   font-family: "Helvetica" sans-serif;
   width: inherit;
@@ -174,7 +185,7 @@ img#icon3 {
   flex-wrap: nowrap;
   justify-content: center;
   margin: 1.5rem auto auto auto;
-  max-width: 960px;
+  width: 960px;
 
 }
 
